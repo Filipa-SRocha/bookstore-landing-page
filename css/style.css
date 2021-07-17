@@ -68,25 +68,58 @@ body {
 	padding: 30px;
 }
 
+#subscribe > p {
+	color: #3e5c60;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
 form {
-	background-color: brown;
 	display: flex;
+	flex: 1 1;
+	width: 100%;
+	justify-content: center;
 }
 
 input {
 	border: 1px solid #5098a07c;
-	border-radius: 5px;
-	width: 400px;
+	border-radius: 10px;
+	width: 40%;
+	min-width: 250px;
 	height: 30px;
+	margin-right: 5px;
+	padding-left: 10px;
+	color: #3e5c60;
+}
+::placeholder {
+	color: rgba(168, 168, 168, 0.863);
+}
+
+input:focus::placeholder {
+	color: transparent;
+}
+
+input:focus-visible {
+	outline: none;
 }
 
 form > button {
-	width: 40px;
+	width: 45px;
 	height: 30px;
+	background-color: grey;
+	border-radius: 90px;
+	border: none;
+}
+
+form > button:hover {
+	background-color: rgb(197, 65, 42);
 }
 
 #rocket-icon {
 	width: 40px;
+	position: relative;
+	top: -25px;
+	right: 1px;
 }
 
 /*---Footer--*/
@@ -94,9 +127,29 @@ form > button {
 footer {
 	display: flex;
 	background-color: rgba(0, 0, 0, 0.192);
+	padding: 20px;
+	margin-top: 80px;
+	justify-content: space-between;
 }
 
 .aknowledgments-item a {
-	font-size: 15px;
+	font-size: 14px;
+	color: #376469;
+}
+
+.aknowledgments-item a:hover {
+	text-decoration: underline rgb(165, 36, 36);
+}
+
+#footer-nav {
+	width: 50%;
+}
+
+#footer-nav-list {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.footer-nav-item {
 	color: #376469;
 }
