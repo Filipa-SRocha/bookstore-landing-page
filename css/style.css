@@ -3,3 +3,88 @@ body {
 	font-family: 'Public Sans', sans-serif;
 	font-size: 20px;
 }
+
+/*----Header---*/
+#title {
+	font-family: 'Unkempt', cursive;
+	font-size: 60px;
+	text-align: center;
+}
+
+#nav-list {
+	margin: 10px auto;
+	display: flex;
+	justify-content: space-around;
+	max-width: 50%;
+}
+
+.nav-item a {
+	color: #5098a0;
+	font-size: 18px;
+}
+
+.nav-item a:hover {
+	text-decoration: underline;
+}
+
+/*------*/
+
+#hero {
+	max-width: 50%;
+	height: auto;
+}
+
+#promo {
+	display: flex;
+	margin: 50px 30px;
+}
+
+#promo-text {
+	color: #376469;
+	margin-left: 20px;
+}
+
+#promo-text > h2 {
+	font-size: 30px;
+	margin: 80px 0;
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#promo-text > p {
+	max-width: 500px;
+	margin: 80px 30px;
+	font-size: 25px;
+}
+
+/*----Subscription----*/
+
+#subscribe {
+	background-color: #5098a07c;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px;
+}
+
+form {
+	background-color: brown;
+	display: flex;
+}
+
+input {
+	border: 1px solid #5098a07c;
+	border-radius: 5px;
+	width: 400px;
+	height: 30px;
+}
+
+form > button {
+	width: 40px;
+	height: 30px;
+}
+
+#rocket-icon {
+	width: 40px;
+}
