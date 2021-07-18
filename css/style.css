@@ -6,6 +6,7 @@ body {
 
 /*----Header---*/
 #title {
+	padding-top: 20px;
 	font-family: 'Unkempt', cursive;
 	font-size: 60px;
 	text-align: center;
